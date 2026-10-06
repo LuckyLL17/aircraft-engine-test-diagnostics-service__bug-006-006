@@ -1,0 +1,11 @@
+{
+  "name": "aircraft-engine-test-diagnostics-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "航空发动机地面试车时序诊断与性能退化推演服务",
+  "scripts": {
+    "start": "node --experimental-strip-types src/http/server.ts",
+    "test": "node --experimental-strip-types --test test/*.test.ts"
+  }
+}
